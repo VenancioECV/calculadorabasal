@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    background-color:#f6f5f7;
+    font-family: "montserrat", sans-serif;
+}
+#tarjeta{
+    background-color:aquamarine;
+    width: 850px ;
+    height: 400px;
+    position: absolute;
+    inset: 00;
+    margin: auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#formulario{
+    background-color:white;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+#detalle{
+    background-color: #ff416c;
+    color:white;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+ }
+.contenido{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+input{
+    background-color: #eee;
+    padding: 10px 10px;
+    font-family: "Montserrat";  
+    border: none;
+    width: 70% ;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 30px;
+    font-size: 15 px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:white;    
+    background-color: #ff416c;
+    border: none;
+    border-radius: 20px;
+}
+#volumen{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
