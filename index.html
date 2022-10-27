@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div id="tarjeta">
+            <!--Formulario-->
+            <div id="formulario">
+                <div class="contenido">
+                    <h1 style="color: rgb(76, 211, 13) ;">Hidratación Basal</h1>
+                    <p>Ingrese el peso en kg</p>
+                    <input type="number" id="peso" value="0">
+                    <p id="error" class="txtderp">Introduzca el peso en kg</p>
+                    <button id="calcular">Calcular</button>
+                    <p id="volumen" class="txtderp"></p>
+                    <p id="volumen2" class="txtderp"></p>
+                    <p id="fluhora" class="txtderp"></p>
+                    <p id="mantmedio" class="txtderp"></p>
+                </div>
+            </div>
+
+            <!--Detalle--> 
+            <div id="detalle">
+                <div class="contenido">
+                    <h1>¿Cómo se calcula?</h1>
+                    <h3>A través del método Holliday-Segar para hasta 30kg</h3>
+                    <ul>
+                        <li>Cuando el niño tiene hasta 10kg: 100cc por cada kilo.</li>
+                        <li>Luego, por cada kilo arriba de 10 y hasta 20kg, se suman 50cc.</li>
+                        <li>Finalmente, por cada kilo arriba de 20kg se suman 20cc</li>
+                    </ul>
+                    <h3>Por arriba de 30  kg, se utiliza el método de superficie corporal</h3>
+                    <ul>
+                        <p>Se realiza la siguiente operación:</p>
+                        <li>SC=Superficie corporal = ( (peso * 4) + 7) / (peso + 90)</li>
+                        <li>Este resultado se multiplica por 1500 o por 2000.</li>
+                        <li>La calculadora muestra primero SC*15OO y abajo SC*2000</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
