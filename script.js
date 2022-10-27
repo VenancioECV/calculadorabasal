@@ -59,7 +59,7 @@ CALCULAR.addEventListener('click', () => {
 }   else {//si el dato es menor a 0, se mostrará la linea de error
         ERROR.style.display = 'block';
         VOLUMEN.style.display = 'none';
-        VOLUMEN2.style.display = 'none'
+        VOLUMEN2.style.display = 'none';
         FLUHORA.style.display ='none';
         MANTMEDIO.style.display = 'none';   
 }
