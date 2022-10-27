@@ -24,7 +24,7 @@ CALCULAR.addEventListener('click', () => {
         para el dato de SC*2000 del método para pesos por sobre 30 kg*/
         if(DATO<31){
             volumen = calcHollSeg(DATO);
-            
+            VOLUMEN2.style.display = 'none';
         }
         else{ //se ejecuta la funnción del método de Superficie Corporal
             /*esta función dará de return el valor de aux, que es el método de superficie corporal
