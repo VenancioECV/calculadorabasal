@@ -53,7 +53,6 @@ CALCULAR.addEventListener('click', () => {
         MANTMEDIO.innerHTML = 'm+m/2 = ' + mantmedio + ' cc/hr';
         /*el display tipo block hace el display en la linea con el formato asignado*/
         VOLUMEN.style.display = 'block'
-
         FLUHORA.style.display = 'block';
         MANTMEDIO.style.display = 'block';        
 }   else {//si el dato es menor a 0, se mostrará la linea de error
