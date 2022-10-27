@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
     </head>
     <body>
         <div id="tarjeta">
@@ -10,9 +11,12 @@
                 <div class="contenido">
                     <h1 style="color: rgb(76, 211, 13) ;">Hidratación Basal</h1>
                     <p>Ingrese el peso en kg</p>
-                    <input type="number" v  alue="0">
-                    <button>Calcular</button>
-                    <p id="volumen">800 cc</p>
+                    <input type="number" id="peso" value="0">
+                    <p id="error">Introduzca el peso en kg</p>
+                    <button id="calcular">Calcular</button>
+                    <p id="volumen"></p>
+                    <p id="fluhora"></p>
+                    <p id="mantmedio"></p>
                 </div>
             </div>
 
