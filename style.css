@@ -5,8 +5,8 @@ body{
 }/*Formato del contenedor entero*/
 #tarjeta{
     background-color:aquamarine;
-    width: 850px ;
-    height: 650px;
+    width: 900px ;
+    height: 700px;
     position: absolute;
     inset: 00;
     margin: auto;
