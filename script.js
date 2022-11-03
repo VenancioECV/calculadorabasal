@@ -38,7 +38,8 @@ CALCULAR.addEventListener('click', () => {
             /*se asigna lo que se mostrará en las línea de volumen2 dentro de este else ya que solo hace
             falta en el caso de que se ejecute el else*/
             VOLUMEN2.innerHTML ='SC*2000=' + volumen2 + 'cc diario';
-            VOLUMEN2.style.display = 'block';  
+            VOLUMEN2.style.display = 'block';
+            MANTMEDIO.style.display = 'none';
         }
         let fluhora = volumen/24;
         let mantmedio = fluhora*1.5;
